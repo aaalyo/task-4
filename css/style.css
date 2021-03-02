@@ -1,0 +1,144 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(../codecode.jpg);
+    background-color: black;
+    background-size: contain;
+    background-attachment: scroll;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.container {
+    height: 250vh;
+    padding: 0px;
+    +margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-welcome {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 700px;
+    height: 300px;
+    color: whitesmoke;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-welcome div {
+    margin: 10px;
+}
+
+.read-more-btn {
+    border: whitesmoke 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.read-more-btn a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container-white-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    background-color: gainsboro;
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.container-in-white-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-in-white-block div {
+    width: 300px;
+    padding: 20px;
+}
+
+.container-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+}
+
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    background-color: gainsboro;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+}
+
+.text-under-pictures {
+    width: 200px;
+    margin: 10px;
+    ;
+}
+
+.container-pictures div img {
+    margin: 0px;
+}
+
+.container-bottom-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.container-in-bottom-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-us {
+    background-color: steelblue;
+    color: whitesmoke;
+    width: 50%;
+}
+
+.contact-us div {
+    margin: 30px;
+}
+
+.about {
+    background-color: black;
+    color: whitesmoke;
+    width: 50%;
+}
+
+.about div {
+    margin: 30px;
+}
+
+.text-bottom-blocks {
+    margin: 30px;
+}
